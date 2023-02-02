@@ -1,0 +1,29 @@
+.project{
+    padding:80px 0;
+    position: relative;
+    background-image: url("../../assets/img/color-sharp2.png");
+
+}
+.project h2{
+    font-size:45px;
+    font-weight: 700;
+    color: blueviolet;
+    text-align: center;
+}
+.project p{
+    color: #b8b8b8;
+    font-size: 18px;
+    letter-spacing:0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 50%;
+}
+.background-img{
+   top:20%;
+   position:absolute;
+   bottom: 0;
+   width: 35%;
+   right: 0;
+   z-index: -4; 
+}
