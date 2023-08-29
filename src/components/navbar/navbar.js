@@ -76,13 +76,13 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/nadeenshaik/">
+                <a href="https://www.linkedin.com/in/nadeenshaik/" target="_blank">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=919182320462&utm_source=Messaging&utm_medium=Whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=919182320462&utm_source=Messaging&utm_medium=Whatsapp" target="_blank">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="https://www.instagram.com/nadeenshaik/">
+                <a href="https://www.instagram.com/nadeenshaik/" target="_blank">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>

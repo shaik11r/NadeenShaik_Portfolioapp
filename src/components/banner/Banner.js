@@ -10,7 +10,6 @@ export const Banner = () => {
   const toRotate = [
     "Reactjs developer",
     "Nodejs developer",
-    "hmm..",
     "Fullstack developer",
   ];
   const [loopNum, setLoopNum] = useState(0);
@@ -52,7 +51,6 @@ export const Banner = () => {
         <Container>
           <Row className="align-items-center">
             <Col xs={12} md={6} xl={7}>
-              <span className="tagline">Welcome to my PortFolio</span>
               <h1>
                 {`Hi,`}
                 <br />
