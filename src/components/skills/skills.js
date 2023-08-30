@@ -24,7 +24,7 @@ const TextSphere = () => {
       "GIT",
     ];
     const options = {
-      radius: 300,
+      radius: 200,
       maxSpeed: "normal",
       initSpeed: "fast",
       keep: true,
