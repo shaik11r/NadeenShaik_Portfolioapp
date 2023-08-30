@@ -1,11 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./skills.css";
 import TagCloud from "TagCloud";
 import { Row, Col } from "react-bootstrap";
+import { WindowDash } from "react-bootstrap-icons";
 
 const TextSphere = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   useEffect(() => {
     const container = ".tagcloud";
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
     const texts = [
       "HTML",
       "CSS",
@@ -23,8 +29,9 @@ const TextSphere = () => {
       "Data Structures",
       "GIT",
     ];
+    const intialradius = windowWidth < 600 ? 150 : 300;
     const options = {
-      radius: 200,
+      radius: intialradius,
       maxSpeed: "normal",
       initSpeed: "fast",
       keep: true,
