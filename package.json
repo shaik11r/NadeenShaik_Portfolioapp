@@ -16,6 +16,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-tagcloud": "^2.3.1",
+    "react-vertical-timeline-component": "^3.6.0",
     "TagCloud": "^2.3.2",
     "web-vitals": "^2.1.4"
   },

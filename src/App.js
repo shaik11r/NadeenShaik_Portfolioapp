@@ -6,11 +6,13 @@ import "./App.css";
 import { Projects } from "./components/project/project";
 import { Contact } from "./components/contact/Contact";
 import { Footer } from "./components/footer/Footer";
+import Vertical from "./components/verticalTImeline/vertical";
 function App() {
   return (
     <div>
       <NavBar />
       <Banner />
+      <Vertical/>
       <TextSphere />
       <Projects />
       <Contact />
